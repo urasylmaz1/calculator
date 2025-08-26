@@ -52,6 +52,11 @@ button.forEach(button => {
         }
     }
 
+    else if(value=="Del"){
+        display.value= display.value.slice(0, -1)
+
+    }
+
     else{
 
         if(value=="."){
