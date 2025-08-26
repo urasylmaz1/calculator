@@ -33,11 +33,19 @@ body {
     text-align: right;
 }
 
-#footer{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: right;
-    margin:0px 5px;
+#footer {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-size: 14px;
+    color: #bbb;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
 }
+
+
+
 
 
 #buttons button {
@@ -46,3 +54,40 @@ body {
     background-color: black;
     color: white;
 }
+
+#buttons #clear{
+    grid-column: span 2;
+    background-color: #28a745;
+}
+
+#buttons #delete{
+    grid-column: span 2;
+    background-color: #dc3545;
+}
+
+#buttons button:nth-child(1), 
+#buttons button:nth-child(5), 
+#buttons button:nth-child(9), 
+#buttons button:nth-child(13){
+    background-color: #007bff;   
+}
+
+#buttons button:nth-child(16){
+    background-color: #20c997;
+}
+
+
+#buttons button:hover{
+    opacity: 0.6;
+}
+
+#buttons button:active{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
